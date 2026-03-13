@@ -11,7 +11,38 @@ If you have bad credit — or no credit history at all — most credit card issu
 
 You don't have to accept that. Several legitimate cards are designed specifically for bad credit applicants and charge **$0 per year.** Here's what's actually worth applying for.
 
-> **Disclosure:** KillTheFee.com earns a commission on referrals. We only recommend cards we'd recommend to a family member with bad credit.
+> 
+
+---
+
+## 💳 Our Top Pick: Venmo Credit Card — $0 Annual Fee
+
+The **Venmo Credit Card** earns up to 3% cash back on your top spending category with zero annual fee. Apply in minutes.
+
+[Apply for the Venmo Credit Card →](https://www.cj.com/VENMO_CREDIT_CARD_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🔍 Compare Your Options in 2 Minutes
+
+**LendingTree** lets you compare credit cards, loans, and savings accounts side by side — for free, with no impact to your credit score.
+
+[Compare Rates on LendingTree →](https://www.cj.com/LENDINGTREE_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🛡️ Free Credit Monitoring — Know Your Score
+
+**Experian** offers free credit monitoring, score tracking, and identity theft alerts. Essential if you're rebuilding credit.
+
+[Check Your Credit Score Free →](https://www.cj.com/EXPERIAN_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+**Disclosure:** KillTheFee.com earns a commission on referrals. We only recommend cards we'd recommend to a family member with bad credit.
 
 ---
 
