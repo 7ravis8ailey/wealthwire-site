@@ -11,7 +11,28 @@ If you're carrying a balance on a high-interest credit card, you're probably pay
 
 A balance transfer card gives you **0% APR for 12–21 months** to pay that debt down. The best ones charge no annual fee. Here's what's worth it.
 
-> **Disclosure:** KillTheFee.com may earn a commission if you apply through our links. Rankings are based on terms, not payout.
+> 
+
+---
+
+## 💳 Our Top Pick: Venmo Credit Card — $0 Annual Fee
+
+The **Venmo Credit Card** earns up to 3% cash back on your top spending category with zero annual fee. Apply in minutes.
+
+[Apply for the Venmo Credit Card →](https://www.cj.com/VENMO_CREDIT_CARD_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🔍 Compare Your Options in 2 Minutes
+
+**LendingTree** lets you compare credit cards, loans, and savings accounts side by side — for free, with no impact to your credit score.
+
+[Compare Rates on LendingTree →](https://www.cj.com/LENDINGTREE_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+**Disclosure:** KillTheFee.com may earn a commission if you apply through our links. Rankings are based on terms, not payout.
 
 ---
 
