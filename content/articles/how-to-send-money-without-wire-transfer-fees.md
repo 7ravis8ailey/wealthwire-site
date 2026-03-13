@@ -11,7 +11,18 @@ Banks charge **$15–$35 for domestic wire transfers** and **$35–$50 for inter
 
 Here's how to send money for free, or nearly free, in 2026.
 
-> **Disclosure:** KillTheFee.com earns a commission on some referrals. This never changes our recommendations.
+> 
+
+---
+
+## 🔍 Compare Your Options in 2 Minutes
+
+**LendingTree** lets you compare credit cards, loans, and savings accounts side by side — for free, with no impact to your credit score.
+
+[Compare Rates on LendingTree →](https://www.cj.com/LENDINGTREE_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+**Disclosure:** KillTheFee.com earns a commission on some referrals. This never changes our recommendations.
 
 ---
 
