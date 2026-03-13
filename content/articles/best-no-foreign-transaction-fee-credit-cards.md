@@ -11,7 +11,28 @@ Every time you swipe your card abroad — or even shop on an international websi
 
 The good news: several excellent credit cards charge **zero foreign transaction fees** and **zero annual fees**. You don't have to pay $95/year for a travel card to avoid this.
 
-> **Disclosure:** KillTheFee.com earns a commission if you apply through our links. This never affects our recommendations — we only feature cards we'd use ourselves.
+> 
+
+---
+
+## 💳 Our Top Pick: Venmo Credit Card — $0 Annual Fee
+
+The **Venmo Credit Card** earns up to 3% cash back on your top spending category with zero annual fee. Apply in minutes.
+
+[Apply for the Venmo Credit Card →](https://www.cj.com/VENMO_CREDIT_CARD_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🔍 Compare Your Options in 2 Minutes
+
+**LendingTree** lets you compare credit cards, loans, and savings accounts side by side — for free, with no impact to your credit score.
+
+[Compare Rates on LendingTree →](https://www.cj.com/LENDINGTREE_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+**Disclosure:** KillTheFee.com earns a commission if you apply through our links. This never affects our recommendations — we only feature cards we'd use ourselves.
 
 ---
 
