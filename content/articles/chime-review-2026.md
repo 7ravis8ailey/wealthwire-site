@@ -11,7 +11,28 @@ Chime has grown to over 22 million members — making it one of the largest digi
 
 Here's what Chime actually does well, where it falls short, and who should use it.
 
-> **Disclosure:** KillTheFee.com earns a commission if you open an account through our link. The downsides in this review are real — we don't hide them.
+> 
+
+---
+
+## 💰 Earn More on Your Savings — Right Now
+
+**Barclays Online Savings** offers one of the highest APYs available with no monthly fees and no minimum balance. Take 2 minutes to open an account and start earning more today.
+
+[Open a Barclays Savings Account →](https://www.cj.com/BARCLAYS_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🏦 Recommended: Valley Bank High-Yield Savings
+
+**Valley Bank** offers a competitive APY with no monthly fees. FDIC insured.
+
+[Open a Valley Bank Account →](https://www.cj.com/VALLEY_BANK_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+**Disclosure:** KillTheFee.com earns a commission if you open an account through our link. The downsides in this review are real — we don't hide them.
 
 ---
 
