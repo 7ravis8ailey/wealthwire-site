@@ -1,359 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kill The Fee — Stop Paying Bank Fees You Don't Owe</title>
-  <meta name="description" content="Independent guides to eliminating credit card annual fees, ATM fees, overdraft fees, and bank fees. Keep more of your money.">
-  <meta property="og:title" content="Kill The Fee — Stop Paying Bank Fees">
-  <meta property="og:description" content="Free guides to eliminating bank fees and earning more with no-fee financial products.">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://killthefee.com/">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-    :root {
-      --green: #15803d;
-      --green-dark: #166534;
-      --green-light: #dcfce7;
-      --gold: #f5a623;
-      --text: #111827;
-      --muted: #6b7280;
-      --border: #e5e7eb;
-      --bg: #f9fafb;
-      --white: #ffffff;
-    }
-    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--white); }
+<meta name='impact-site-verification' value='327bd64f-0f12-40c8-b229-0fbe38e1d8bb'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kill The Fee — Stop Paying Bank Fees You Don't Owe</title>
+<meta name="description" content="Independent guides to eliminating credit card annual fees, ATM fees, and bank fees. Keep more of your money with our free research.">
+<meta property="og:title" content="Kill The Fee — Stop Paying Bank Fees">
+<meta property="og:description" content="Free guides to eliminating bank fees and earning more with no-fee financial products.">
+<meta property="og:image" content="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b216bbac02e765dd07c66d/036d10f88_generated_image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://killthefee.com/">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap');
 
-    /* NAV */
-    nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; border-bottom: 1px solid var(--border); background: var(--white); position: sticky; top: 0; z-index: 100; }
-    .nav-logo { font-size: 1.25rem; font-weight: 800; color: var(--green); text-decoration: none; }
-    .nav-logo span { color: #f5a623; }
-    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
-    .nav-links a { text-decoration: none; color: var(--muted); font-weight: 500; font-size: 0.9rem; }
-    .nav-links a:hover { color: var(--green); }
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-    /* HERO */
-    .hero { background: linear-gradient(135deg, #1a3a1a 0%, #2d6a2d 60%, #4a5a0a 100%); color: white; padding: 5rem 2rem; text-align: center; }
-    .hero-badge { display: inline-block; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 999px; padding: 0.35rem 1rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 800; line-height: 1.1; margin-bottom: 1rem; }
-    .hero h1 span { color: #ffd166; }
-    .hero p { font-size: 1.15rem; color: rgba(255,255,255,0.8); max-width: 600px; margin: 0 auto 2rem; line-height: 1.6; }
-    .hero-stats { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; margin-top: 3rem; }
-    .hero-stat { text-align: center; }
-    .hero-stat .number { font-size: 2rem; font-weight: 800; color: #ffd166; }
-    .hero-stat .label { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 0.25rem; }
+:root {
+  --green: #1a5c2a;
+  --green-light: #e8f5ec;
+  --green-mid: #2d7a3a;
+  --red: #f5a623;
+  --gold: #d97706;
+  --text: #111827;
+  --text-muted: #6b7280;
+  --border: #e5e7eb;
+  --white: #ffffff;
+  --bg: #f9fafb;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.10);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+  --radius: 10px;
+}
 
-    /* FEE TICKER */
-    .fee-ticker { background: #e09000; color: white; padding: 0.6rem 2rem; text-align: center; font-size: 0.85rem; font-weight: 600; }
-    .fee-ticker span { opacity: 0.85; margin: 0 1rem; }
+body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
 
-    /* SECTIONS */
-    .section { padding: 4rem 2rem; max-width: 1100px; margin: 0 auto; }
-    .section-title { font-size: 1.75rem; font-weight: 800; margin-bottom: 0.5rem; }
-    .section-subtitle { color: var(--muted); margin-bottom: 2.5rem; font-size: 1rem; }
+/* ─── NAV ─── */
+.nav { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; box-shadow: var(--shadow-sm); }
+.nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+.logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+.logo-icon { width: 32px; height: 32px; background: var(--green); border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+.logo-icon svg { width: 18px; height: 18px; fill: white; }
+.logo-text { font-size: 1.2rem; font-weight: 800; color: var(--green); letter-spacing: -0.5px; }
+.logo-text span { color: #f5a623; }
+.nav-links { display: flex; gap: 4px; align-items: center; }
+.nav-links a { padding: 8px 14px; border-radius: 6px; text-decoration: none; font-size: 0.875rem; font-weight: 500; color: var(--text-muted); transition: all 0.15s; }
+.nav-links a:hover { background: var(--green-light); color: var(--green); }
+.nav-badge { background: #f5a623; color: #1a1a1a; color: white; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 10px; margin-left: 4px; vertical-align: middle; }
 
-    /* CATEGORY CARDS */
-    .category-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; }
-    .category-card { border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; text-decoration: none; color: var(--text); transition: all 0.2s; background: var(--white); }
-    .category-card:hover { border-color: var(--green); box-shadow: 0 4px 20px rgba(21,128,61,0.1); transform: translateY(-2px); }
-    .category-card .icon { font-size: 2rem; margin-bottom: 0.75rem; }
-    .category-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem; }
-    .category-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
-    .category-card .arrow { color: var(--green); font-size: 0.8rem; font-weight: 600; margin-top: 0.75rem; display: block; }
+/* ─── HERO ─── */
+.hero { background: linear-gradient(135deg, #0d3318 0%, #1a5c2a 60%, #2d7a3a 100%); overflow: hidden; position: relative; }
+.hero::after { content: ''; position: absolute; inset: 0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="80" cy="20" r="40" fill="rgba(255,255,255,0.03)"/><circle cx="10" cy="80" r="30" fill="rgba(255,255,255,0.02)"/></svg>'); }
+.hero-inner { max-width: 1200px; margin: 0 auto; padding: 72px 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; position: relative; z-index: 1; }
+.hero-content { color: white; }
+.hero-eyebrow { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 6px 14px; font-size: 0.75rem; font-weight: 600; color: rgba(255,255,255,0.9); margin-bottom: 20px; letter-spacing: 0.5px; text-transform: uppercase; }
+.hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 800; line-height: 1.15; margin-bottom: 16px; }
+.hero h1 em { font-style: normal; color: #6ee37a; }
+.hero-sub { font-size: 1.05rem; opacity: 0.85; line-height: 1.7; margin-bottom: 32px; max-width: 480px; }
+.hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn-primary { background: #f5a623; color: #1a1a1a; padding: 14px 24px; border-radius: 8px; font-weight: 700; font-size: 0.95rem; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: transform 0.15s, box-shadow 0.15s; box-shadow: 0 4px 12px rgba(245,166,35,0.4); }
+.btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(229,62,62,0.5); }
+.btn-secondary { background: rgba(255,255,255,0.12); color: white; border: 1px solid rgba(255,255,255,0.3); padding: 14px 24px; border-radius: 8px; font-weight: 600; font-size: 0.95rem; text-decoration: none; transition: background 0.15s; }
+.btn-secondary:hover { background: rgba(255,255,255,0.2); }
+.hero-img-wrap { border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-lg); transform: perspective(1000px) rotateY(-3deg); }
+.hero-img-wrap img { width: 100%; height: 300px; object-fit: cover; display: block; }
 
-    /* ARTICLE CARDS */
-    .article-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
-    .article-card { border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; text-decoration: none; color: var(--text); transition: all 0.2s; background: var(--white); display: flex; flex-direction: column; }
-    .article-card:hover { border-color: var(--green); box-shadow: 0 4px 20px rgba(21,128,61,0.08); }
-    .article-tag { display: inline-block; background: var(--green-light); color: var(--green-dark); font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.2rem 0.6rem; border-radius: 4px; margin-bottom: 0.75rem; }
-    .article-card h3 { font-size: 1rem; font-weight: 700; line-height: 1.4; margin-bottom: 0.5rem; flex: 1; }
-    .article-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
-    .article-read { color: var(--green); font-size: 0.8rem; font-weight: 600; margin-top: 1rem; }
+/* ─── STATS BAR ─── */
+.stats-bar { background: var(--white); border-bottom: 1px solid var(--border); }
+.stats-inner { max-width: 1200px; margin: 0 auto; padding: 20px 24px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.stat { text-align: center; padding: 8px; }
+.stat-number { font-size: 1.6rem; font-weight: 900; color: var(--green); line-height: 1; }
+.stat-label { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; font-weight: 500; }
+.stat-bad .stat-number { color: #d97706; }
 
-    /* SAVINGS CALCULATOR */
-    .calc-box { background: linear-gradient(135deg, #052e16, #166534); border-radius: 16px; padding: 2.5rem; color: white; margin: 2rem 0; }
-    .calc-box h2 { font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem; }
-    .calc-box p { color: rgba(255,255,255,0.75); margin-bottom: 2rem; }
-    .calc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
-    .calc-item { background: rgba(255,255,255,0.1); border-radius: 10px; padding: 1.25rem; text-align: center; }
-    .calc-item .fee-amount { font-size: 1.75rem; font-weight: 800; color: #f5a623; }
-    .calc-item .fee-label { font-size: 0.8rem; color: rgba(255,255,255,0.65); margin-top: 0.25rem; }
-    .calc-item .fee-fix { font-size: 0.75rem; color: #ffd166; font-weight: 600; margin-top: 0.5rem; }
+/* ─── MAIN LAYOUT ─── */
+.main { max-width: 1200px; margin: 0 auto; padding: 48px 24px; display: grid; grid-template-columns: 1fr 320px; gap: 40px; }
 
-    /* CTA BANNER */
-    .cta-banner { background: var(--green-light); border: 1px solid #bbf7d0; border-radius: 16px; padding: 2.5rem; text-align: center; margin: 2rem 0; }
-    .cta-banner h2 { font-size: 1.5rem; font-weight: 800; color: var(--green-dark); margin-bottom: 0.5rem; }
-    .cta-banner p { color: #166534; margin-bottom: 1.5rem; }
-    .btn { display: inline-block; background: var(--green); color: white; padding: 0.8rem 2rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 0.95rem; transition: background 0.2s; }
-    .btn:hover { background: var(--green-dark); }
+/* ─── SECTION HEADERS ─── */
+.section-header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 24px; }
+.section-title { font-size: 1.35rem; font-weight: 800; color: var(--text); }
+.section-title span { color: var(--green); }
+.section-link { font-size: 0.8rem; color: var(--green); font-weight: 600; text-decoration: none; }
 
-    /* FOOTER */
-    footer { background: #111827; color: rgba(255,255,255,0.6); padding: 3rem 2rem; text-align: center; }
-    footer .footer-logo { font-size: 1.25rem; font-weight: 800; color: white; margin-bottom: 1rem; }
-    footer .footer-logo span { color: #f5a623; }
-    footer .footer-links { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
-    footer .footer-links a { color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.85rem; }
-    footer .footer-links a:hover { color: white; }
-    footer .disclaimer { font-size: 0.75rem; max-width: 700px; margin: 0 auto; line-height: 1.6; color: rgba(255,255,255,0.4); }
+/* ─── ARTICLE CARDS ─── */
+.articles-grid { display: grid; gap: 20px; }
+.article-card { background: var(--white); border-radius: var(--radius); border: 1px solid var(--border); overflow: hidden; display: grid; grid-template-columns: 180px 1fr; transition: box-shadow 0.2s, transform 0.2s; }
+.article-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.card-thumb { overflow: hidden; position: relative; }
+.card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s; min-height: 140px; }
+.article-card:hover .card-thumb img { transform: scale(1.04); }
+.card-badge-wrap { position: absolute; top: 10px; left: 10px; }
+.badge { font-size: 0.65rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.4px; }
+.badge-cc { background: #dbeafe; color: #1d4ed8; }
+.badge-savings { background: var(--green-light); color: var(--green); }
+.badge-banking { background: #fef3c7; color: var(--gold); }
+.card-content { padding: 18px 20px; display: flex; flex-direction: column; }
+.card-content h3 { font-size: 1rem; font-weight: 700; line-height: 1.4; margin-bottom: 8px; }
+.card-content h3 a { text-decoration: none; color: var(--text); }
+.card-content h3 a:hover { color: var(--green); }
+.card-desc { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; flex: 1; }
+.card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 12px; }
+.card-meta { font-size: 0.75rem; color: var(--text-muted); }
+.card-link { font-size: 0.8rem; font-weight: 600; color: var(--green); text-decoration: none; display: flex; align-items: center; gap: 4px; }
 
-    @media (max-width: 640px) {
-      nav { padding: 1rem; }
-      .nav-links { display: none; }
-      .hero { padding: 3rem 1.5rem; }
-      .hero-stats { gap: 1.5rem; }
-      .section { padding: 2.5rem 1.25rem; }
-    }
-  </style>
+/* ─── FEATURED CARD (LARGE) ─── */
+.featured-card { background: var(--white); border-radius: var(--radius); border: 1px solid var(--border); overflow: hidden; margin-bottom: 20px; }
+.featured-thumb { height: 220px; overflow: hidden; position: relative; }
+.featured-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.featured-thumb .badge { position: absolute; top: 14px; left: 14px; font-size: 0.7rem; padding: 4px 10px; }
+.featured-body { padding: 22px 24px; }
+.featured-body h2 { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; margin-bottom: 8px; line-height: 1.35; }
+.featured-body h2 a { text-decoration: none; color: var(--text); }
+.featured-body h2 a:hover { color: var(--green); }
+.featured-body p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 14px; }
+
+/* ─── SIDEBAR ─── */
+.sidebar { }
+.sidebar-widget { background: var(--white); border-radius: var(--radius); border: 1px solid var(--border); padding: 20px; margin-bottom: 24px; }
+.widget-title { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-muted); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid var(--green-light); }
+.top-picks li { list-style: none; padding: 10px 0; border-bottom: 1px solid var(--border); display: flex; align-items: flex-start; gap: 10px; }
+.top-picks li:last-child { border-bottom: none; padding-bottom: 0; }
+.pick-num { background: var(--green); color: white; width: 22px; height: 22px; border-radius: 50%; font-size: 0.7rem; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+.pick-text a { font-size: 0.85rem; font-weight: 600; color: var(--text); text-decoration: none; line-height: 1.4; display: block; }
+.pick-text a:hover { color: var(--green); }
+.pick-text span { font-size: 0.75rem; color: var(--text-muted); }
+.disclosure-box { background: #fffbeb; border: 1px solid #fcd34d; border-radius: 8px; padding: 14px 16px; font-size: 0.78rem; color: #78350f; line-height: 1.6; }
+.newsletter-form { display: flex; flex-direction: column; gap: 10px; }
+.newsletter-form input { padding: 10px 14px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.875rem; font-family: inherit; outline: none; }
+.newsletter-form input:focus { border-color: var(--green); }
+.newsletter-form button { background: var(--green); color: white; border: none; padding: 11px; border-radius: 6px; font-weight: 700; font-size: 0.875rem; cursor: pointer; font-family: inherit; }
+.newsletter-sub { font-size: 0.72rem; color: var(--text-muted); }
+
+/* ─── TRUST BAR ─── */
+.trust-bar { background: var(--green-light); border-top: 1px solid #c6e9cc; border-bottom: 1px solid #c6e9cc; padding: 16px 24px; }
+.trust-inner { max-width: 1200px; margin: 0 auto; display: flex; gap: 32px; justify-content: center; flex-wrap: wrap; }
+.trust-item { display: flex; align-items: center; gap: 8px; font-size: 0.8rem; font-weight: 600; color: var(--green); }
+.trust-icon { font-size: 1rem; }
+
+/* ─── FOOTER ─── */
+footer { background: #111827; color: #9ca3af; padding: 48px 24px 24px; }
+.footer-inner { max-width: 1200px; margin: 0 auto; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+.footer-brand p { font-size: 0.85rem; line-height: 1.7; margin-top: 12px; color: #6b7280; }
+.footer-col h4 { color: #e5e7eb; font-size: 0.85rem; font-weight: 700; margin-bottom: 14px; }
+.footer-col a { display: block; color: #6b7280; font-size: 0.82rem; text-decoration: none; margin-bottom: 8px; }
+.footer-col a:hover { color: #e5e7eb; }
+.footer-bottom { border-top: 1px solid #1f2937; padding-top: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; font-size: 0.78rem; }
+.footer-logo { font-size: 1.1rem; font-weight: 800; color: #e5e7eb; }
+.footer-logo span { color: #f5a623; }
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 900px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-img-wrap { display: none; }
+  .main { grid-template-columns: 1fr; }
+  .article-card { grid-template-columns: 140px 1fr; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .stats-inner { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .article-card { grid-template-columns: 1fr; }
+  .card-thumb { height: 160px; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .nav-links { display: none; }
+}
+</style>
 </head>
 <body>
 
-<nav>
-  <a class="nav-logo" href="/"><span>Kill</span>TheFee</a>
-  <ul class="nav-links">
-    <li><a href="#credit-cards">Credit Cards</a></li>
-    <li><a href="#banking">Banking</a></li>
-    <li><a href="#guides">Guides</a></li>
-    <li><a href="#reviews">Reviews</a></li>
-  </ul>
-</nav>
-
-<div class="fee-ticker">
-  🚨 Americans paid $12.4B in overdraft fees last year <span>·</span> The average annual fee is $167/year <span>·</span> ATM fees average $4.73 per transaction <span>·</span> You don't have to pay any of it.
-</div>
-
-<section class="hero">
-  <div class="hero-badge">💸 No-Fee Finance Guide</div>
-  <h1>Stop Paying Fees<br>You <span>Don't Owe</span></h1>
-  <p>Banks quietly charge you hundreds per year in fees you can legally avoid. We show you exactly how — no fluff, no jargon, just the fix.</p>
-  <div class="hero-stats">
-    <div class="hero-stat"><div class="number">$400+</div><div class="label">Avg. fees saved per year</div></div>
-    <div class="hero-stat"><div class="number">20+</div><div class="label">Free guides published</div></div>
-    <div class="hero-stat"><div class="number">$0</div><div class="label">Cost to use this site</div></div>
-  </div>
-</section>
-
-<div style="max-width:1100px;margin:0 auto;padding:3rem 2rem 0;">
-  <div class="calc-box">
-    <h2>💰 How Much Are Fees Costing You?</h2>
-    <p>The average American pays these fees every single year — most without realizing there's a free alternative.</p>
-    <div class="calc-grid">
-      <div class="calc-item">
-        <div class="fee-amount">$167</div>
-        <div class="fee-label">Annual credit card fees</div>
-        <div class="fee-fix">✓ Fix: No-fee cards exist</div>
-      </div>
-      <div class="calc-item">
-        <div class="fee-amount">$170</div>
-        <div class="fee-label">Overdraft fees/year</div>
-        <div class="fee-fix">✓ Fix: Chime, Ally, SoFi</div>
-      </div>
-      <div class="calc-item">
-        <div class="fee-amount">$110</div>
-        <div class="fee-label">ATM fees/year</div>
-        <div class="fee-fix">✓ Fix: 60k free ATMs</div>
-      </div>
-      <div class="calc-item">
-        <div class="fee-amount">$168</div>
-        <div class="fee-label">Monthly maintenance fees</div>
-        <div class="fee-fix">✓ Fix: Free checking</div>
-      </div>
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="logo">
+      <div class="logo-icon"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg></div>
+      <span class="logo-text">Kill<span>The</span>Fee</span>
+    </a>
+    <div class="nav-links">
+      <a href="/articles/best-no-annual-fee-credit-cards/">Credit Cards</a>
+      <a href="/articles/best-high-yield-savings-accounts/">Savings</a>
+      <a href="/articles/how-to-avoid-atm-fees/">ATM Fees</a>
+      <a href="/articles/how-to-cancel-credit-card-annual-fee/">Annual Fees</a>
     </div>
   </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-eyebrow">✦ Free &amp; Independent Research</div>
+      <h1>Stop Paying Fees<br>You <em>Don't Owe</em></h1>
+      <p class="hero-sub">Americans hand banks <strong style="color:#6ee37a">$billions</strong> in unnecessary fees every year. We show you exactly how to stop — credit cards, ATMs, savings accounts, and more.</p>
+      <div class="hero-ctas">
+        <a href="/articles/best-no-annual-fee-credit-cards/" class="btn-primary">Best No-Fee Cards →</a>
+        <a href="/articles/best-high-yield-savings-accounts/" class="btn-secondary">Earn 5.10% APY</a>
+      </div>
+    </div>
+    <div class="hero-img-wrap">
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b216bbac02e765dd07c66d/036d10f88_generated_image.png" alt="Kill The Fee — Financial Independence">
+    </div>
+  </div>
+</section>
+
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat stat-bad"><div class="stat-number">$130</div><div class="stat-label">Avg. credit card annual fee</div></div>
+    <div class="stat stat-bad"><div class="stat-number">$4.73</div><div class="stat-label">Avg. ATM fee per transaction</div></div>
+    <div class="stat"><div class="stat-number">5.10%</div><div class="stat-label">Best HYSA APY available</div></div>
+    <div class="stat"><div class="stat-number">$0</div><div class="stat-label">What you should be paying</div></div>
+  </div>
 </div>
 
-<section class="section" id="categories">
-  <div class="section-title">What Are You Trying to Kill?</div>
-  <div class="section-subtitle">Pick your fee. We have the fix.</div>
-  <div class="category-grid">
-    <a class="category-card" href="#credit-cards">
-      <div class="icon">💳</div>
-      <h3>Annual Fees</h3>
-      <p>Best no-annual-fee credit cards, plus how to waive fees on cards you already have.</p>
-      <span class="arrow">Explore guides →</span>
-    </a>
-    <a class="category-card" href="#banking">
-      <div class="icon">🏦</div>
-      <h3>Overdraft Fees</h3>
-      <p>Banks that cover you for free — no $35 penalty when you run a few dollars short.</p>
-      <span class="arrow">See free accounts →</span>
-    </a>
-    <a class="category-card" href="#banking">
-      <div class="icon">🏧</div>
-      <h3>ATM Fees</h3>
-      <p>60,000+ free ATMs you didn't know about, and banks that reimburse any ATM fee.</p>
-      <span class="arrow">Find free ATMs →</span>
-    </a>
-    <a class="category-card" href="#banking">
-      <div class="icon">📋</div>
-      <h3>Monthly Fees</h3>
-      <p>Free checking accounts with no minimum balance, no hoops, no catches.</p>
-      <span class="arrow">See free accounts →</span>
-    </a>
-    <a class="category-card" href="#guides">
-      <div class="icon">✈️</div>
-      <h3>Foreign Transaction Fees</h3>
-      <p>Stop paying 3% extra on every international purchase. Free cards exist.</p>
-      <span class="arrow">See travel cards →</span>
-    </a>
-    <a class="category-card" href="#guides">
-      <div class="icon">💸</div>
-      <h3>Wire Transfer Fees</h3>
-      <p>Send money domestically and internationally for free or near-free.</p>
-      <span class="arrow">See free options →</span>
-    </a>
+<div class="trust-bar">
+  <div class="trust-inner">
+    <div class="trust-item"><span class="trust-icon">🔍</span> Independent Research</div>
+    <div class="trust-item"><span class="trust-icon">✓</span> FTC Compliant Disclosures</div>
+    <div class="trust-item"><span class="trust-icon">💰</span> No Paid Rankings</div>
+    <div class="trust-item"><span class="trust-icon">🔄</span> Updated Regularly</div>
   </div>
-</section>
+</div>
 
-<section class="section" id="credit-cards">
-  <div class="section-title">Credit Card Guides</div>
-  <div class="section-subtitle">The best cards that charge you nothing to hold — and pay you back for spending.</div>
-  <div class="article-grid">
-    <a class="article-card" href="/content/articles/best-no-annual-fee-credit-cards.md">
-      <span class="article-tag">Top Pick</span>
-      <h3>Best No Annual Fee Credit Cards (2026)</h3>
-      <p>Our top picks for cards with zero annual fees and real rewards.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/best-cash-back-credit-cards-no-annual-fee-2026.md">
-      <span class="article-tag">Cash Back</span>
-      <h3>Best Cash Back Cards With No Annual Fee</h3>
-      <p>Earn 1.5–2% on everything you buy — for free.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/best-no-foreign-transaction-fee-credit-cards.md">
-      <span class="article-tag">Travel</span>
-      <h3>Best No Foreign Transaction Fee Cards (No Annual Fee)</h3>
-      <p>Stop paying 3% extra on every overseas or international purchase.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/best-balance-transfer-credit-cards-no-fee.md">
-      <span class="article-tag">Debt Payoff</span>
-      <h3>Best Balance Transfer Cards — 0% APR, No Annual Fee</h3>
-      <p>Pay off high-interest debt with up to 21 months at 0% APR.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/best-secured-credit-cards-no-annual-fee.md">
-      <span class="article-tag">Build Credit</span>
-      <h3>Best Secured Credit Cards With No Annual Fee</h3>
-      <p>Build your credit score without paying a yearly fee to do it.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/best-credit-cards-bad-credit-no-annual-fee.md">
-      <span class="article-tag">Bad Credit</span>
-      <h3>Best Credit Cards for Bad Credit — No Annual Fee</h3>
-      <p>Cards designed for poor or limited credit that don't punish you with fees.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/how-to-cancel-credit-card-annual-fee.md">
-      <span class="article-tag">Fee Hack</span>
-      <h3>How to Get Your Annual Fee Waived (7 Scripts)</h3>
-      <p>Word-for-word phone scripts that actually work in 2026.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-  </div>
-</section>
+<div class="main">
+  <main>
+    <div class="section-header">
+      <h2 class="section-title">Featured <span>Guide</span></h2>
+    </div>
+    <div class="featured-card">
+      <div class="featured-thumb">
+        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b216bbac02e765dd07c66d/00af14d9e_generated_image.png" alt="Best No Annual Fee Credit Cards of 2026">
+        <span class="badge badge-cc">Credit Cards</span>
+      </div>
+      <div class="featured-body">
+        <h2><a href="/articles/best-no-annual-fee-credit-cards/">Best No Annual Fee Credit Cards of 2026</a></h2>
+        <p>Why pay $95–$695 a year for a credit card? These cards offer real rewards with zero yearly cost.</p>
+        <a href="/articles/best-no-annual-fee-credit-cards/" class="btn-primary" style="display:inline-flex; font-size:0.875rem; padding:10px 18px;">Read the Full Guide →</a>
+      </div>
+    </div>
 
-<section class="section" id="banking">
-  <div class="section-title">Banking Guides</div>
-  <div class="section-subtitle">The best no-fee bank accounts — and how to stop paying fees at your current bank.</div>
-  <div class="article-grid">
-    <a class="article-card" href="/content/articles/best-high-yield-savings-accounts.md">
-      <span class="article-tag">Top Pick</span>
-      <h3>Best High-Yield Savings Accounts (2026)</h3>
-      <p>Earn 4%+ APY on your savings — the national average is 0.47%.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/banks-with-no-overdraft-fees.md">
-      <span class="article-tag">Overdraft</span>
-      <h3>8 Banks With No Overdraft Fees</h3>
-      <p>Never pay $35 for going $5 short again. These banks cover you free.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/best-free-checking-accounts-no-minimum-balance.md">
-      <span class="article-tag">Free Checking</span>
-      <h3>Best Free Checking Accounts With No Minimum Balance</h3>
-      <p>$0 monthly fee, $0 minimum. No conditions. No tricks.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/how-to-avoid-atm-fees.md">
-      <span class="article-tag">ATM Fees</span>
-      <h3>How to Avoid ATM Fees Completely</h3>
-      <p>60,000+ free ATMs and banks that reimburse every fee you pay.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/how-to-avoid-monthly-maintenance-fees.md">
-      <span class="article-tag">Monthly Fees</span>
-      <h3>How to Avoid Monthly Maintenance Fees (2026)</h3>
-      <p>The exact steps to waive fees at your current bank — or switch for free.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/best-bank-account-bonuses-2026.md">
-      <span class="article-tag">Free Cash</span>
-      <h3>Best Bank Account Bonuses — Up to $400 Free</h3>
-      <p>Banks are paying you hundreds just to open an account right now.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-    <a class="article-card" href="/content/articles/how-to-send-money-without-wire-transfer-fees.md">
-      <span class="article-tag">Wire Fees</span>
-      <h3>How to Send Money Without Wire Transfer Fees</h3>
-      <p>Send money free domestically and internationally in 2026.</p>
-      <span class="article-read">Read guide →</span>
-    </a>
-  </div>
-</section>
+    <div class="section-header" style="margin-top:32px">
+      <h2 class="section-title">All <span>Guides</span></h2>
+    </div>
+    <div class="articles-grid">
+      
+    <div class="article-card">
+      <div class="card-thumb">
+        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b216bbac02e765dd07c66d/d2becded0_generated_image.png" alt="Best High-Yield Savings Accounts (Up to 5.10% APY)" loading="lazy">
+        <div class="card-badge-wrap"><span class="badge badge-savings">Savings</span></div>
+      </div>
+      <div class="card-content">
+        <h3><a href="/articles/best-high-yield-savings-accounts/">Best High-Yield Savings Accounts (Up to 5.10% APY)</a></h3>
+        <p class="card-desc">The average savings account pays 0.46% APY. These accounts pay 10x that — here's where to move your money.</p>
+        <div class="card-footer">
+          <span class="card-meta">March 12, 2026</span>
+          <a href="/articles/best-high-yield-savings-accounts/" class="card-link">Read guide →</a>
+        </div>
+      </div>
+    </div>
+    <div class="article-card">
+      <div class="card-thumb">
+        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b216bbac02e765dd07c66d/0b2f2fa32_generated_image.png" alt="How to Never Pay an ATM Fee Again" loading="lazy">
+        <div class="card-badge-wrap"><span class="badge badge-banking">Banking</span></div>
+      </div>
+      <div class="card-content">
+        <h3><a href="/articles/how-to-avoid-atm-fees/">How to Never Pay an ATM Fee Again</a></h3>
+        <p class="card-desc">ATM fees average $4.73 per transaction — $56/year if you hit the ATM once a week. Here's how to make them disappear.</p>
+        <div class="card-footer">
+          <span class="card-meta">March 12, 2026</span>
+          <a href="/articles/how-to-avoid-atm-fees/" class="card-link">Read guide →</a>
+        </div>
+      </div>
+    </div>
+    <div class="article-card">
+      <div class="card-thumb">
+        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b216bbac02e765dd07c66d/00af14d9e_generated_image.png" alt="How to Get Your Credit Card Annual Fee Waived (Scripts Included)" loading="lazy">
+        <div class="card-badge-wrap"><span class="badge badge-cc">Credit Cards</span></div>
+      </div>
+      <div class="card-content">
+        <h3><a href="/articles/how-to-cancel-credit-card-annual-fee/">How to Get Your Credit Card Annual Fee Waived (Scripts Included)</a></h3>
+        <p class="card-desc">Your credit card annual fee is negotiable. Most people don't know that. Here's exactly what to say.</p>
+        <div class="card-footer">
+          <span class="card-meta">March 12, 2026</span>
+          <a href="/articles/how-to-cancel-credit-card-annual-fee/" class="card-link">Read guide →</a>
+        </div>
+      </div>
+    </div>
+    <div class="article-card">
+      <div class="card-thumb">
+        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b216bbac02e765dd07c66d/00af14d9e_generated_image.png" alt="Best Cash Back Cards With No Annual Fee (2026)" loading="lazy">
+        <div class="card-badge-wrap"><span class="badge badge-cc">Credit Cards</span></div>
+      </div>
+      <div class="card-content">
+        <h3><a href="/articles/best-cash-back-credit-cards-no-fee/">Best Cash Back Cards With No Annual Fee (2026)</a></h3>
+        <p class="card-desc">Earn 2–5% back on every purchase without paying a dime to hold the card. Top picks for 2026.</p>
+        <div class="card-footer">
+          <span class="card-meta">March 12, 2026</span>
+          <a href="/articles/best-cash-back-credit-cards-no-fee/" class="card-link">Read guide →</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
 
-<section class="section" id="reviews">
-  <div class="section-title">Bank Reviews</div>
-  <div class="section-subtitle">Honest, detailed reviews of the best no-fee banks — including the real downsides.</div>
-  <div class="article-grid">
-    <a class="article-card" href="/content/articles/sofi-bank-review-2026.md">
-      <span class="article-tag">Review</span>
-      <h3>SoFi Bank Review 2026</h3>
-      <p>4% APY, $300 bonus, no fees. The best overall bank for most people?</p>
-      <span class="article-read">Read review →</span>
-    </a>
-    <a class="article-card" href="/content/articles/chime-review-2026.md">
-      <span class="article-tag">Review</span>
-      <h3>Chime Review 2026</h3>
-      <p>22 million members. Zero fees. But is it actually the right bank for you?</p>
-      <span class="article-read">Read review →</span>
-    </a>
-    <a class="article-card" href="/content/articles/ally-bank-review-2026.md">
-      <span class="article-tag">Review</span>
-      <h3>Ally Bank Review 2026</h3>
-      <p>The most reliable online bank with $250 free overdraft coverage.</p>
-      <span class="article-read">Read review →</span>
-    </a>
-    <a class="article-card" href="/content/articles/chime-vs-sofi-vs-ally-comparison.md">
-      <span class="article-tag">Comparison</span>
-      <h3>Chime vs SoFi vs Ally: Which Wins in 2026?</h3>
-      <p>Head-to-head on fees, APY, overdraft, and features. The honest verdict.</p>
-      <span class="article-read">Read comparison →</span>
-    </a>
-  </div>
-</section>
+  <aside class="sidebar">
+    <div class="sidebar-widget">
+      <div class="widget-title">Top Picks This Month</div>
+      <ul class="top-picks">
+        <li><span class="pick-num">1</span><div class="pick-text"><a href="/articles/best-no-annual-fee-credit-cards/">Chase Freedom Unlimited® — Best No-Fee Card Overall</a><span>$0 annual fee · 1.5–5% cash back</span></div></li>
+        <li><span class="pick-num">2</span><div class="pick-text"><a href="/articles/best-high-yield-savings-accounts/">Marcus by Goldman Sachs — Best HYSA</a><span>4.90% APY · No minimum balance</span></div></li>
+        <li><span class="pick-num">3</span><div class="pick-text"><a href="/articles/how-to-avoid-atm-fees/">Charles Schwab Checking — Best ATM Card</a><span>Unlimited ATM fee rebates worldwide</span></div></li>
+      </ul>
+    </div>
 
-<div style="max-width:1100px;margin:0 auto;padding:0 2rem 4rem;">
-  <div class="cta-banner">
-    <h2>Ready to Stop Paying Fees?</h2>
-    <p>Start with our most popular guide — the best no-annual-fee cards of 2026.</p>
-    <a class="btn" href="/content/articles/best-no-annual-fee-credit-cards.md">See the Top No-Fee Cards →</a>
-  </div>
+    <div class="sidebar-widget">
+      <div class="widget-title">Get Fee Alerts</div>
+      <p style="font-size:0.82rem; color:var(--text-muted); margin-bottom:12px;">New guides and rate changes delivered free.</p>
+      <form class="newsletter-form" onsubmit="return false;">
+        <input type="email" placeholder="your@email.com">
+        <button type="submit">Subscribe Free →</button>
+      </form>
+      <p class="newsletter-sub" style="margin-top:6px;">No spam. Unsubscribe anytime.</p>
+    </div>
+  </aside>
 </div>
 
 <footer>
-  <div class="footer-logo"><span>Kill</span>TheFee</div>
-  <div class="footer-links">
-    <a href="/content/articles/best-no-annual-fee-credit-cards.md">Credit Cards</a>
-    <a href="/content/articles/best-high-yield-savings-accounts.md">Savings</a>
-    <a href="/content/articles/banks-with-no-overdraft-fees.md">Banking</a>
-    <a href="/disclaimer.html">Affiliate Disclaimer</a>
-    <a href="#">Privacy Policy</a>
-    <a href="#">About</a>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">Kill<span>The</span>Fee</div>
+        <p>Independent guides to eliminating unnecessary bank fees and earning more from your everyday financial products. We research so you don't have to.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Credit Cards</h4>
+        <a href="/articles/best-no-annual-fee-credit-cards/">No Annual Fee Cards</a>
+        <a href="/articles/best-cash-back-credit-cards-no-fee/">Cash Back Cards</a>
+        <a href="/articles/how-to-cancel-credit-card-annual-fee/">Waive Your Annual Fee</a>
+      </div>
+      <div class="footer-col">
+        <h4>Banking</h4>
+        <a href="/articles/best-high-yield-savings-accounts/">High-Yield Savings</a>
+        <a href="/articles/how-to-avoid-atm-fees/">Avoid ATM Fees</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="/affiliate-disclosure/">Affiliate Disclosure</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/disclaimer/">Disclaimer</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 KillTheFee.com — Independent financial publisher. Not financial advice.</span>
+      <span>Some links are affiliate links. We may earn a commission at no cost to you.</span>
+    </div>
   </div>
-  <p class="disclaimer">KillTheFee.com is an independent, advertiser-supported comparison site. We may earn a commission when you click on or apply for products featured on this site. This compensation may impact how and where products appear on this site. KillTheFee.com does not include all financial products or companies. Editorial content is not provided by any bank, credit card issuer, or financial institution. Opinions expressed are the author's alone. For informational purposes only — not financial advice.</p>
 </footer>
 
 </body>
