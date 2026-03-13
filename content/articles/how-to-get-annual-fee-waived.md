@@ -135,3 +135,23 @@ The annual fee waiver call takes 10 minutes. Success rates range from 40–70% d
 Call before you pay. The worst they can say is no.
 
 [See the Best No-Annual-Fee Cards →](#)
+
+---
+
+## 💳 Our Top Pick: Venmo Credit Card — $0 Annual Fee
+
+The **Venmo Credit Card** earns up to 3% cash back on your top spending category with zero annual fee. Apply in minutes.
+
+[Apply for the Venmo Credit Card →](https://www.cj.com/VENMO_CREDIT_CARD_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🔍 Compare Your Options in 2 Minutes
+
+**LendingTree** lets you compare credit cards, loans, and savings accounts side by side — for free, with no impact to your credit score.
+
+[Compare Rates on LendingTree →](https://www.cj.com/LENDINGTREE_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
