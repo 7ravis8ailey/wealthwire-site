@@ -9,7 +9,38 @@ tags: [secured-credit-card, build-credit, no-annual-fee, credit-score]
 
 If you're rebuilding your credit or starting from scratch, you don't need to pay an annual fee to do it. Several excellent secured cards charge $0 per year — and some even earn cash back while you build.
 
-> **Disclosure:** KillTheFee.com earns a commission on referrals through our links. We only recommend cards we'd give to a family member.
+> 
+
+---
+
+## 💳 Our Top Pick: Venmo Credit Card — $0 Annual Fee
+
+The **Venmo Credit Card** earns up to 3% cash back on your top spending category with zero annual fee. Apply in minutes.
+
+[Apply for the Venmo Credit Card →](https://www.cj.com/VENMO_CREDIT_CARD_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🔍 Compare Your Options in 2 Minutes
+
+**LendingTree** lets you compare credit cards, loans, and savings accounts side by side — for free, with no impact to your credit score.
+
+[Compare Rates on LendingTree →](https://www.cj.com/LENDINGTREE_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🛡️ Free Credit Monitoring — Know Your Score
+
+**Experian** offers free credit monitoring, score tracking, and identity theft alerts. Essential if you're rebuilding credit.
+
+[Check Your Credit Score Free →](https://www.cj.com/EXPERIAN_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+**Disclosure:** KillTheFee.com earns a commission on referrals through our links. We only recommend cards we'd give to a family member.
 
 ---
 
