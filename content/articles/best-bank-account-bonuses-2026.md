@@ -11,7 +11,38 @@ Banks are competing hard for your deposit dollars. Their weapon of choice: cold,
 
 This is legitimately free money. Here's every bonus worth grabbing right now.
 
-> **Disclosure:** KillTheFee.com earns a commission if you apply through our links. This never affects our rankings — we only list bonuses that are actually worth your time.
+> 
+
+---
+
+## 💰 Earn More on Your Savings — Right Now
+
+**Barclays Online Savings** offers one of the highest APYs available with no monthly fees and no minimum balance. Take 2 minutes to open an account and start earning more today.
+
+[Open a Barclays Savings Account →](https://www.cj.com/BARCLAYS_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🏦 Recommended: Valley Bank High-Yield Savings
+
+**Valley Bank** offers a competitive APY with no monthly fees. FDIC insured.
+
+[Open a Valley Bank Account →](https://www.cj.com/VALLEY_BANK_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🔍 Compare Your Options in 2 Minutes
+
+**LendingTree** lets you compare credit cards, loans, and savings accounts side by side — for free, with no impact to your credit score.
+
+[Compare Rates on LendingTree →](https://www.cj.com/LENDINGTREE_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+**Disclosure:** KillTheFee.com earns a commission if you apply through our links. This never affects our rankings — we only list bonuses that are actually worth your time.
 
 ---
 
