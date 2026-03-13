@@ -17,7 +17,7 @@
       --green: #15803d;
       --green-dark: #166534;
       --green-light: #dcfce7;
-      --red: #dc2626;
+      --gold: #f5a623;
       --text: #111827;
       --muted: #6b7280;
       --border: #e5e7eb;
@@ -29,24 +29,24 @@
     /* NAV */
     nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; border-bottom: 1px solid var(--border); background: var(--white); position: sticky; top: 0; z-index: 100; }
     .nav-logo { font-size: 1.25rem; font-weight: 800; color: var(--green); text-decoration: none; }
-    .nav-logo span { color: var(--red); }
+    .nav-logo span { color: #f5a623; }
     .nav-links { display: flex; gap: 1.5rem; list-style: none; }
     .nav-links a { text-decoration: none; color: var(--muted); font-weight: 500; font-size: 0.9rem; }
     .nav-links a:hover { color: var(--green); }
 
     /* HERO */
-    .hero { background: linear-gradient(135deg, #052e16 0%, #166534 100%); color: white; padding: 5rem 2rem; text-align: center; }
+    .hero { background: linear-gradient(135deg, #1a3a1a 0%, #2d6a2d 60%, #4a5a0a 100%); color: white; padding: 5rem 2rem; text-align: center; }
     .hero-badge { display: inline-block; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 999px; padding: 0.35rem 1rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1.5rem; }
     .hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 800; line-height: 1.1; margin-bottom: 1rem; }
-    .hero h1 span { color: #86efac; }
+    .hero h1 span { color: #ffd166; }
     .hero p { font-size: 1.15rem; color: rgba(255,255,255,0.8); max-width: 600px; margin: 0 auto 2rem; line-height: 1.6; }
     .hero-stats { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; margin-top: 3rem; }
     .hero-stat { text-align: center; }
-    .hero-stat .number { font-size: 2rem; font-weight: 800; color: #86efac; }
+    .hero-stat .number { font-size: 2rem; font-weight: 800; color: #ffd166; }
     .hero-stat .label { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 0.25rem; }
 
     /* FEE TICKER */
-    .fee-ticker { background: var(--red); color: white; padding: 0.6rem 2rem; text-align: center; font-size: 0.85rem; font-weight: 600; }
+    .fee-ticker { background: #e09000; color: white; padding: 0.6rem 2rem; text-align: center; font-size: 0.85rem; font-weight: 600; }
     .fee-ticker span { opacity: 0.85; margin: 0 1rem; }
 
     /* SECTIONS */
@@ -78,9 +78,9 @@
     .calc-box p { color: rgba(255,255,255,0.75); margin-bottom: 2rem; }
     .calc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
     .calc-item { background: rgba(255,255,255,0.1); border-radius: 10px; padding: 1.25rem; text-align: center; }
-    .calc-item .fee-amount { font-size: 1.75rem; font-weight: 800; color: #f87171; }
+    .calc-item .fee-amount { font-size: 1.75rem; font-weight: 800; color: #f5a623; }
     .calc-item .fee-label { font-size: 0.8rem; color: rgba(255,255,255,0.65); margin-top: 0.25rem; }
-    .calc-item .fee-fix { font-size: 0.75rem; color: #86efac; font-weight: 600; margin-top: 0.5rem; }
+    .calc-item .fee-fix { font-size: 0.75rem; color: #ffd166; font-weight: 600; margin-top: 0.5rem; }
 
     /* CTA BANNER */
     .cta-banner { background: var(--green-light); border: 1px solid #bbf7d0; border-radius: 16px; padding: 2.5rem; text-align: center; margin: 2rem 0; }
@@ -92,7 +92,7 @@
     /* FOOTER */
     footer { background: #111827; color: rgba(255,255,255,0.6); padding: 3rem 2rem; text-align: center; }
     footer .footer-logo { font-size: 1.25rem; font-weight: 800; color: white; margin-bottom: 1rem; }
-    footer .footer-logo span { color: #f87171; }
+    footer .footer-logo span { color: #f5a623; }
     footer .footer-links { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
     footer .footer-links a { color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.85rem; }
     footer .footer-links a:hover { color: white; }
