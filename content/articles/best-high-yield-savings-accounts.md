@@ -145,3 +145,23 @@ Move your money. Stop leaving hundreds on the table.
 ---
 
 *[Compare all high-yield savings accounts →](#)*
+
+---
+
+## 💰 Earn More on Your Savings — Right Now
+
+**Barclays Online Savings** offers one of the highest APYs available with no monthly fees and no minimum balance. Take 2 minutes to open an account and start earning more today.
+
+[Open a Barclays Savings Account →](https://www.cj.com/BARCLAYS_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🏦 Recommended: Valley Bank High-Yield Savings
+
+**Valley Bank** offers a competitive APY with no monthly fees. FDIC insured.
+
+[Open a Valley Bank Account →](https://www.cj.com/VALLEY_BANK_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
