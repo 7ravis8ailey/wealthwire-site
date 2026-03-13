@@ -13,7 +13,28 @@ The best no-annual-fee cash back cards earn you 1.5–2% on every purchase — t
 
 Here are the best ones.
 
-> **Disclosure:** KillTheFee.com earns a commission if you apply through our links. Our rankings are based entirely on card features.
+> 
+
+---
+
+## 💳 Our Top Pick: Venmo Credit Card — $0 Annual Fee
+
+The **Venmo Credit Card** earns up to 3% cash back on your top spending category with zero annual fee. Apply in minutes.
+
+[Apply for the Venmo Credit Card →](https://www.cj.com/VENMO_CREDIT_CARD_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+
+---
+
+## 🔍 Compare Your Options in 2 Minutes
+
+**LendingTree** lets you compare credit cards, loans, and savings accounts side by side — for free, with no impact to your credit score.
+
+[Compare Rates on LendingTree →](https://www.cj.com/LENDINGTREE_AFFILIATE_LINK_HERE) *(affiliate link — we may earn a commission at no cost to you)*
+
+---
+**Disclosure:** KillTheFee.com earns a commission if you apply through our links. Our rankings are based entirely on card features.
 
 ---
 
